@@ -6,17 +6,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html,
-body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-}
+html, body {
 
-body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 10vh;
+    width: 100vw;
+    background: #1a5637;
 }
 
 main {
@@ -41,14 +35,15 @@ iframe#tela {
     left: 22px;
     width: 267px;
     height: 471px;
-    
+
 }
 
 section#redes-sociais {
     text-align: center;
+    margin-top: 10px;
 }
 
-section#redes-sociais img{
+section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -56,6 +51,27 @@ section#redes-sociais img{
     box-sizing: border-box;
 }
 
-    section#redes-sociais img:hover {
-        border: 2px solid rgba(255, 255, 255, 0.600);
-    }
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+}
+
+footer {
+    background-color: #063d1e;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    bottom:0%;
+    width: 100%;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #83e1ad;
+}
