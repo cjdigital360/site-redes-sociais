@@ -6,8 +6,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 1px
+
+}
+
+
 img {
-    width: 100vw;
+    width: 93.8vw;
+
 }
 
 a {
